@@ -1,11 +1,11 @@
-from flask import Flask, request, jsonify, render_template
-import tensorflow as tf
-import numpy as np
-from flask import Flask, request, jsonify
-from tensorflow.keras.layers import TextVectorization
-import pandas as pd
-from flask_cors import CORS  # Import Flask-CORS to handle cross-origin requests
-from flask import session, redirect, url_for
+from flask import Flask, request, jsonify, render_template # type: ignore
+import tensorflow as tf # type: ignore
+import numpy as np # type: ignore
+from flask import Flask, request, jsonify # type: ignore
+from tensorflow.keras.layers import TextVectorization # type: ignore
+import pandas as pd # type: ignore
+from flask_cors import CORS  # type: ignore # Import Flask-CORS to handle cross-origin requests
+from flask import session, redirect, url_for # type: ignore
 
 
 app = Flask(__name__, static_folder='Website/static', template_folder='Website/templates')
