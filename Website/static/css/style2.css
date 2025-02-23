@@ -1,0 +1,708 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    /* background: url('/static/images/background1.jpg') no-repeat center center; */
+    background-size: cover;
+    background-position: center center;
+    height: 120vh;
+    border-left: 4px solid rgba(0, 0, 0, 0.2); /* Light border on the right */
+    padding-left: 250px; /* Adds space between content and border */
+
+}
+
+section{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    border-left: 0.5px solid rgba(15, 14, 14, 0.915); /* Light border on the right */
+    /* padding-left: -10px; Adds space between content and border */
+
+}
+
+section::before {
+    content: ""; /* Creates a decorative border */
+    position: absolute;
+    top: 85px; /* Adjust this value to move the border further down */
+    left: 25%; /* Reduces width from the left */
+    width: 30%; /* Makes the border shorter from both sides */
+    height: 0.5px;
+    background-color: #010309; /* Border color */
+}
+
+
+section::after {
+    content: ""; /* Creates a decorative border */
+    position: absolute;
+    top: 870px; /* Adjust this value to move the border further down */
+    left: 25%; /* Reduces width from the left */
+    width: 30%; /* Makes the border shorter from both sides */
+    height: 0.5px;
+    background-color: #010309; /* Border color */
+}
+.left-bar {
+    position: fixed;
+    top: 120px; /* Position it below the "Photogram" title */
+    left: 40px; /* Align it to the left corner */
+    width: auto; /* Adjust width to fit content */
+    height: auto; /* Adjust height dynamically */
+    background: transparent; /* Remove background */
+    display: flex;
+    flex-direction: column; /* Stack icons vertically */
+    align-items: flex-start;
+    justify-content: flex-start; /* Align items to the top */
+    gap: 20px; /* Space between icons */
+    padding: 10px 0;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px; /* Adjust text size */
+    color: #333; /* Text color */
+    gap: 25px; /* Space between icon and text */
+}
+
+.icon-container ion-icon {
+    font-size: 35px; /* Adjust icon size */
+    color: #333; /* Icon color */
+}
+
+.icon-container span {
+    margin-top: 5px; /* Space between icon and text */
+    font-weight: bold;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* New styling for bottom-left icons */
+.bottom-icons {
+    position: absolute;
+    bottom: -300px; /* Distance from bottom */
+    left: 8px; /* Align to the left corner */
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    gap: 20px; /* Space between icons */
+}
+
+
+.Profilephoto1
+{
+    position: absolute;
+    left: 400px; 
+    top: 100px; 
+}
+
+
+.Profilephoto2
+{
+    position: absolute;
+    left: 400px; 
+    top: 910px; 
+}
+
+
+.Profilephoto3
+{
+    position: absolute;
+    left: 400px; 
+    top: 1700px; 
+}
+
+
+.Postedphoto1 img {
+    width: 400px; 
+    height: 550px; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+
+.Postedphoto2 img {
+    width: 400px; 
+    height: 550px; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+
+.Postedphoto3 img {
+    width: 400px; 
+    height: 550px; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+.Postedphoto1
+{
+    position: absolute;
+    left: 400px;
+    top: 165px; 
+}
+
+
+
+.Postedphoto2
+{
+    position: absolute;
+    left: 400px;
+    top: 980px; 
+}
+
+
+
+.Postedphoto3
+{
+    position: absolute;
+    left: 400px;
+    top: 1780px; 
+}
+
+.Postedphotoicon
+{
+    position: absolute;
+    right: 8px;
+    color: #080000;
+    font-size: 1.2em;
+    line-height: 57px;
+}
+
+.first-comments {
+    position: absolute;
+    top: 800px;
+    left: 405px;
+}
+
+
+.Postedphoto img {
+    width: 400px;
+    height: 550px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.Postedphotoicon  {
+    position: absolute;
+    left: 410px; 
+    top: 730px; 
+    display: flex;
+    gap: 30px; 
+} 
+
+/* First instance styling */
+.first-instance {
+    position: absolute;
+    top: 730px;  /* Adjust the distance from top */
+    left: 405px;  /* Adjust the distance from left */
+}
+
+/* Second instance styling */
+.second-instance {
+    position: absolute;
+    top: 1545px;  /* Adjust the distance from top */
+    left: 405px; /* Adjust the distance from left */
+}
+
+/* Third instance styling */
+.third-instance {
+    position: absolute;
+    top: 2350px;  /* Adjust the distance from top */
+    left: 405px;  /* Adjust the distance from right */
+}
+.Postedphotoicon ion-icon {
+    font-size: 30px; 
+    color: #333;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.Postedphotoicon ion-icon:hover[name="heart"] {
+    color: rgb(249, 27, 15);
+}
+
+
+
+.Postedphotoicon ion-icon[name="heart"] {
+    font-size: 35px; 
+    color: rgb(11, 11, 11); 
+}
+
+.Profilephoto1 img {
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover; 
+}
+
+
+.Profilephoto2 img {
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover; 
+    border-radius: 30px;
+}
+
+
+.Profilephoto3 img {
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover; 
+    border-radius: 30px;
+}
+
+
+.Comment-box {
+    display: none; /* Hide the comment box initially */
+    position: absolute;
+    right: 120px; /* Align to the rightmost part */
+    bottom: 200px; /* Adjust top position if needed */
+    width: 400px; /* Adjust width as necessary */
+    height: 400px;
+    border: 2px solid #0d0d0d; /* Add border around the comment box */
+    padding: 45px; /* Optional: Add some padding inside the box */
+    background-color: #fff; /* Optional: Add background color */
+}
+
+
+/* Fade-in effect when displayed */
+.Comment-box.show {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+h2
+{
+    font-size: 2em;
+    color: #0b0b0b;
+    text-align: center;
+}
+
+
+h1
+{
+    font-family: 'Sriracha', cursive;
+    font-size: 2em;
+    color: #0b0b0b;
+    text-align: left;
+    position: fixed;
+    top: 20px;   /* Adjust the distance from the top */
+    left: 60px; /* Adjust the distance from the right */
+   
+}
+
+h3
+{
+    font-size: 1em;
+    color: #0a0909;
+    text-align: left;
+    position: absolute;
+    top: 118px;   /* Adjust the distance from the top */
+    left: 460px; /* Adjust the distance from the right */
+}
+
+h4
+{
+    font-size: 1em;
+    color: #0a0909;
+    text-align: left;
+    position: absolute;
+    top: 920px;   /* Adjust the distance from the top */
+    left: 460px; /* Adjust the distance from the right */
+}
+
+h5
+{
+    font-size: 1em;
+    color: #0a0909;
+    text-align: left;
+    position: absolute;
+    top: 1715px;   /* Adjust the distance from the top */
+    left: 460px; /* Adjust the distance from the right */
+}
+
+.input-box
+{
+    position: relative;
+    width: 310px;
+    margin: 40px 0;
+    border: 2px  #0d0d0d
+}
+    
+
+.input-box input
+{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #0d0d0d;
+    outline: none;
+    font-size: 15px;
+    color: solid #0a0202;
+    padding:  15px 5px 0px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+}
+
+
+
+.input-box input::placeholder {
+    color: transparent; /* Makes placeholder text transparent */
+}
+
+.input-box input:focus {
+    border-color: #010309; /* Change border color on focus */
+    background-color: #fff;
+}
+.input-box input::placeholder {
+    color: #0c0303;
+    opacity: 1; /* Make sure placeholder text is visible initially */
+}
+
+/* You can hide the label when the input is focused or has text */
+.input-box input:focus::placeholder {
+    color: transparent; /* Hide the placeholder when focused */
+}
+
+.input-box .icon
+{
+    position: absolute;
+    right: 8px;
+    color: #080000;
+    font-size: 1.2em;
+    line-height: 57px;
+}
+
+
+button
+{
+    width: 100%;
+    height: 40px;
+    background: #0731ae;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: #e6e6dc;
+    font-weight: 500;
+}
+
+
+#predictionResult {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    margin: 20px auto;
+    text-align: center;
+    color: rgb(184, 236, 39) !important; /* Default color */
+    box-shadow: 0 2px 10px rgba(207, 28, 28, 0.1);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Style for Success (Non-Toxic Comment) */
+#predictionResult.success {
+    background-color: #12d740; /* Light green */
+    border-left: 5px solid #28a745; /* Green border */
+    color: #155724; /* Dark green text */
+}
+
+/* Style for Error (Toxic Comment) */
+#predictionResult.error {
+    background-color: #e31a2b; /* Light red */
+    border-left: 5px solid #dc3545; /* Red border */
+    color: #721c24; /* Dark red text */
+}
+
+/* Show the popup with a smooth fade-in effect */
+#predictionResult.show {
+    opacity: 1;
+}
+
+body.blur {
+    filter: blur(5px); /* Apply background blur */
+    transition: filter 0.3s ease-in-out; /* Optional: smooth transition */
+}
+
+/* Ensure modal is not blurred */
+.modal, .modal-content {
+    filter: none !important; /* Disable the blur effect */
+    backdrop-filter: none !important; /* Explicitly remove any backdrop filter */
+    z-index: 99999; /* Ensure the modal is above the blurred body */
+}
+
+
+/* Default Modal Styling */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1001;
+    left: 50%;
+    bottom: 30%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    color: rgb(249, 242, 242); /* Text color */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    /* backdrop-filter: none; Ensure no blur is applied to the modal itself */
+}
+
+.modal img
+{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Modal headings */
+.modal-content h4, .modal-content h5 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.modal button
+{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    /* background: #6fd649; */
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+}
+
+
+/* Green button for non-toxic comment */
+.modal button.non-toxic {
+    background-color: #70e844; /* Green for non-toxic comments */
+}
+
+/* Red button for toxic comment */
+.modal button.toxic {
+    background-color: #8b261a; /* Red for toxic comments */
+}
+
+/* Specific colors for toxic and non-toxic messages */
+.modal.success {
+    background-color: rgb(233, 237, 231);
+    color: rgb(2, 2, 2); /* Text color */
+}  
+
+.modal.error {
+    background-color: rgb(242, 235, 235);
+    color: rgb(9, 0, 0); /* Text color */
+   
+}
+
+/* Position the tick icon at the top middle */
+.modal.success::before, .modal.error::before {
+    content: ''; /* Empty content to create the pseudo-element */
+    position: absolute;
+    top: -20px; /* Move the icon above the modal */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Correct the centering */
+    width: 40px; /* Adjust the width of the icon */
+    height: 40px; /* Adjust the height of the icon */
+    background-size: cover; /* Make sure the background image covers the element */
+    border-radius: 50%; /* Make it circular */
+}
+
+.modal.success::before {
+    background-image: url('/static/images/greentick.jpg'); /* Green tick for success */
+}
+
+.modal.error::before {
+    background-image: url('/static/images/redtick.jpg'); /* Red tick for error */
+}
+
+.modal-content {
+    position: relative;
+    padding: 20px;
+}
+
+
+/* Add a slight delay before modal shows */
+.modal.show {
+    display: block;
+    animation: slideFromTop 0.3s ease-out;
+}
+
+
+.close {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* Overlay to blur background */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    display: none;
+    z-index: 1000; /* Below the popup but above everything else */
+}
+
+
+@keyframes slideFromTop {
+    from {
+        transform: translate(-50%, -100%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+}
+/* 
+.non-toxic-comment {
+    font-size: 16px;
+    color: #0b0401;
+    background-color: #eae856; 
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    border: 2px solid red; 
+} */
+/* 
+.comments-list {
+    max-height: 200px; 
+    overflow-y: auto;  
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+    border-top: 1px solid #ddd; 
+} */
+/* 
+.comments-list {
+    margin-top: 10px;          
+    padding: 10px;
+    border-top: 1px solid #ddd; 
+    background-color: #fafafa;  
+   
+}
+
+
+
+.comment, .non-toxic-comment {
+    font-size: 16px;
+    color: #0b0401;
+    background-color: #eae856; 
+    padding: 10px;
+    margin-bottom: 10px;  
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+} */
+
+/* Container for comments under each post */
+/* .comments-list {
+    position: absolute;
+    left: 405px;
+    width: 400px;
+    background: #f9f9f9; 
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+} */
+
+
+.comment {
+    font-size: 10px;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    line-height: 1.4;
+}
+
+.comment.non-toxic {
+    background-color: #eaffea; 
+    border-left: 5px solid #28a745; 
+    color: #155724; 
+}
+
+
+.comment.toxic {
+    background-color: #ffeaea; 
+    border-left: 5px solid #dc3545; 
+    color: #721c24; 
+}
+
+
+.comments-list {
+    display: none; /* Initially hidden */
+    position: absolute;
+    width: 100%;
+    max-width: 350px; 
+    left: 0;
+    padding: 10px;
+    background: #f3f3ef;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Ensures comments are stacked vertically */
+    gap: 5px; /* Space between comments */
+
+    max-height: 55px; /* Set a height limit for scrolling */
+    overflow-y: auto; /* Enables vertical scrolling */
+}
+
+
+.first-instance .comments-list {
+    top: 70px; 
+}
+
+.second-instance .comments-list {
+    top: 70px; 
+}
+
+.third-instance .comments-list {
+    top: 65px; 
+}

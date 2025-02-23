@@ -1,0 +1,384 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: url('../images/background2.jpg') no-repeat center center;  */
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between; /* Ensures the image and login box are on opposite sides */
+
+}
+
+section{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+    /* background-size: cover;
+    background-position: center;
+    gap: 20px; */
+    /*padding: 0 10%;*/ /* Adjust horizontal padding */
+    
+}
+
+header.title {
+    font-family: 'Sriracha', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #060606;
+    text-align: center;
+    margin-bottom: 20px; /* Adds space between title and form */
+}
+
+.search-bar {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 250px; /* Adjust width as needed */
+    height: 40px;
+    background: #efe27f; /* Light grey background */
+    /* border-radius: 20px; Rounded corners */
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    pointer-events: none; /* Makes it non-clickable */
+    gap: 10px; /* Adds space between icon and text */
+    border: 1px solid rgb(14, 13, 13);
+}
+
+.search-bar input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    pointer-events: none; /* Prevents user interaction */
+    font-weight: bold; /* Makes text bold */
+    
+}
+
+
+.top-bar {
+    position: relative;
+    top: -105px;
+    left: 300px; /* Move it to the right side */
+    width: 50%;
+    height: 70px; /* Increased height for labels */
+    background: #ffffff; /* Light background */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center icons */
+    gap: 60px; /* Reduce space between icons */
+    padding: 5px 20px;
+    pointer-events: none; /* Makes it non-clickable */
+    
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px; /* Adjust text size */
+    color: #333; /* Text color */
+}
+
+.icon-container ion-icon {
+    font-size: 32px; /* Adjust icon size */
+    color: #333; /* Icon color */
+}
+
+.icon-container span {
+    margin-top: 5px; /* Space between icon and text */
+    font-weight: bold;
+}
+
+
+/* New right-corner-icons CSS */
+.right-corner-icons {
+    position: absolute;
+    top: 20px;  /* Adjust for desired distance from top */
+    right: 20px;  /* Adjust for desired distance from right */
+    display: flex;
+    align-items: center;
+    gap: 40px;  /* Space between the icons */
+}
+
+.right-corner-icons ion-icon {
+    font-size: 35px; /* Icon size */
+    color: #333; /* Icon color */
+    cursor: pointer;  /* Adds a pointer on hover */
+}
+
+
+.Login-box
+{
+    width: 400px; /* Adjust width */
+    height: 450px; /* Adjust height */
+    text-align: center;
+    border: 2px solid black; /* Thin subtle border like Instagram */
+    background: #ffffff; /* Light background */
+    /* box-shadow:  0 4px 10px rgba(0, 0, 0, 0.15); Soft shadow */
+    padding: 40px; 
+    margin-left: 930px; /* Auto margin on the left side*/
+    margin-bottom: 200px;  
+}
+
+h2
+{
+    font-size: 2em;
+    color: #080808;
+    text-align: center;
+}
+
+.input-box
+{
+    position: relative;
+    width: 310px;
+    margin: 10px 0;
+    
+}
+
+.input-box input
+{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #141212;
+    outline: none;
+    font-size: 15px;
+    color: #141212;
+    padding:  15px 5px 0px;
+    line-height: 50px;
+    box-sizing: border-box;
+    position: relative; 
+    z-index: 2; /* Keeps the text above the label */
+    padding: 15px 20px;
+}
+
+.input-box input::placeholder {
+    color: transparent; /* Makes placeholder text transparent */
+}
+
+.input-box input:focus {
+    border-color: #010309; /* Change border color on focus */
+    background-color: #fff;
+}
+.input-box input::placeholder {
+    color: #0c0303;
+    opacity: 1; /* Make sure placeholder text is visible initially */
+}
+
+/* You can hide the label when the input is focused or has text */
+.input-box input:focus::placeholder {
+    color: transparent; /* Hide the placeholder when focused */
+}
+
+.input-box .icon
+{
+    position: absolute;
+    right: 8px;
+    color: #141212;
+    font-size: 1.2em;
+    line-height: 57px;
+}
+
+.remeber-forgot
+{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #141212;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember label input
+{
+    margin-right: 3px;
+    margin: 10px 0 20px; /* Added margin to create space below "Remember me" and "Forgot password?" */
+}
+
+.remember a
+{
+    color: #141212;
+    text-decoration: none;
+    justify-content: space-between;  
+    display: flex;
+    width: 100%;
+}
+
+.remember a:hover
+{
+    text-decoration: underline;
+}
+
+button
+{
+    width: 100%;
+    height: 40px;
+    background: #0731ae;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.register-link
+{
+    font-size: .9em;
+    color: #050505;
+    text-align: center;
+    width: 400px; /* Same width as login box */
+    border: 2px solid black; /* Thin subtle border like Instagram */
+    height: 65px;
+    padding: 25px; /* Adjust the padding to ensure it fits nicely */
+    text-decoration: none;
+    font-weight: 660;
+    margin-top: 80px; /* Adjust to move the login box upwards */
+    margin-left: -43px; /* Auto margin on the left side */
+    margin-bottom: 400px;
+}
+
+
+.register-link
+{
+    color: #050505;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.register-link p a hover
+{
+    text-decoration: underline;
+    
+}
+/* 
+.image-slider {
+    position: absolute;
+    left: 0; 
+    top: 0; 
+    width: 50vw; 
+    height: 100vh; 
+    border-radius: 0px;
+    box-shadow: none;
+    background: #fff; 
+    padding: 145px 20px 50px 50px;
+    margin-top: -40px;
+}
+
+.slide {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: slideShow 14s infinite;
+} */
+
+.mobile-frame {
+    width: 620px; /* Keep it narrow for a phone look */
+    height: 700px; /* Increase height for portrait mode */
+    background: rgb(6, 6, 6);
+    border-radius: 50px; /* More curvature for a phone-like feel */
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 8px solid black; /* To make it more like a phone */
+}
+
+
+/* Speaker and Camera */
+.mobile-frame::before {
+    content: "";
+    width: 80px;
+    height: 5px;
+    background: #333;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+.mobile-frame::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #666;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+/* Ensure Image Slider Stays Inside */
+.image-slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Image Slideshow */
+.slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: rgb(243, 242, 242); /* Adds black background to fill empty spaces */
+    position: absolute;
+    opacity: 0;
+    animation: slideShow 14s infinite;
+}
+
+
+.slide:nth-child(1) { animation-delay: 0s; }
+.slide:nth-child(2) { animation-delay: 2s; }
+.slide:nth-child(3) { animation-delay: 4s; }
+.slide:nth-child(4) { animation-delay: 6s; }
+.slide:nth-child(5) { animation-delay: 8s; }
+.slide:nth-child(6) { animation-delay: 10s; }
+.slide:nth-child(7) { animation-delay: 12s; }
+
+
+@keyframes slideShow {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    30% { opacity: 1; }
+    40% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+
+
+
+
+
+
+
+
