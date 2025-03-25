@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photogram</title>
+    <title> CLARUS </title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
@@ -13,6 +13,7 @@
        
         <div class="mobile-frame">  
         <div class = "image-slider" >  
+                <img src="{{ url_for('static', filename='images/photo.jpg') }}" class="slide">
                 <img src="{{ url_for('static', filename='images/photo1.jpg') }}" class="slide">
                 <img src="{{ url_for('static', filename='images/photo2.jpg') }}" class="slide">
                 <img src="{{ url_for('static', filename='images/photo3.jpg') }}" class="slide">
@@ -21,7 +22,7 @@
                 <img src="{{ url_for('static', filename='images/photo6.jpg') }}" class="slide">
                 <img src="{{ url_for('static', filename='images/photo7.jpg') }}" class="slide">
                 <img src="{{ url_for('static', filename='images/photo8.jpg') }}" class="slide">
-                <img src="{{ url_for('static', filename='images/photo9.jpg') }}" class="slide">
+                
         </div>
         </div>
         <div class="search-bar">
@@ -67,7 +68,10 @@
         
         <div class = "Login-box">
             <header class = "title">
-                <h1>Photogram</h1>
+                <div class="logo-container">
+                    <img src="{{ url_for('static', filename='images/photo.jpg') }}" alt="Logo" class="logo">
+                    <h1>CLARUS</h1>
+                </div>
             </header>
             <form id="login-form" action="/login" method="POST">
                 <h2> Login </h2>
@@ -89,11 +93,11 @@
                     </label>
                 </div>
                 <button type = "submit" > Login </button>
-        <div class = "register-link">
-            <p> Don't have an account?
-                <a href = "#">Register</a>
-            </p>
-        </div>
+                <div class = "register-link">
+                    <p> Don't have an account?
+                        <a href = "#">Register</a>
+                    </p>
+                </div>
             </form>
         </div>
 

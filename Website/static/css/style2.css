@@ -9,12 +9,11 @@
 
 
 body {
-    /* background: url('/static/images/background1.jpg') no-repeat center center; */
     background-size: cover;
     background-position: center center;
     height: 120vh;
-    border-left: 4px solid rgba(0, 0, 0, 0.2); /* Light border on the right */
-    padding-left: 250px; /* Adds space between content and border */
+    border-left: 4px solid rgba(0, 0, 0, 0.2);
+    padding-left: 250px; 
 
 }
 
@@ -27,43 +26,41 @@ section{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    border-left: 0.5px solid rgba(15, 14, 14, 0.915); /* Light border on the right */
-    /* padding-left: -10px; Adds space between content and border */
-
+    border-left: 0.5px solid rgba(15, 14, 14, 0.915); 
 }
 
 section::before {
-    content: ""; /* Creates a decorative border */
+    content: "";
     position: absolute;
-    top: 85px; /* Adjust this value to move the border further down */
-    left: 25%; /* Reduces width from the left */
-    width: 30%; /* Makes the border shorter from both sides */
+    top: 85px; 
+    left: 25%;
+    width: 30%; 
     height: 0.5px;
-    background-color: #010309; /* Border color */
+    background-color: #010309; 
 }
 
 
 section::after {
-    content: ""; /* Creates a decorative border */
+    content: ""; 
     position: absolute;
-    top: 870px; /* Adjust this value to move the border further down */
-    left: 25%; /* Reduces width from the left */
-    width: 30%; /* Makes the border shorter from both sides */
+    top: 870px; 
+    left: 25%; 
+    width: 30%; 
     height: 0.5px;
-    background-color: #010309; /* Border color */
+    background-color: #010309; 
 }
 .left-bar {
     position: fixed;
-    top: 120px; /* Position it below the "Photogram" title */
-    left: 40px; /* Align it to the left corner */
-    width: auto; /* Adjust width to fit content */
-    height: auto; /* Adjust height dynamically */
-    background: transparent; /* Remove background */
+    top: 120px; 
+    left: 40px;
+    width: auto; 
+    height: auto; 
+    background: transparent; 
     display: flex;
-    flex-direction: column; /* Stack icons vertically */
+    flex-direction: column; 
     align-items: flex-start;
-    justify-content: flex-start; /* Align items to the top */
-    gap: 20px; /* Space between icons */
+    justify-content: flex-start; 
+    gap: 20px; 
     padding: 10px 0;
 }
 
@@ -71,73 +68,52 @@ section::after {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 20px; /* Adjust text size */
-    color: #333; /* Text color */
-    gap: 25px; /* Space between icon and text */
+    font-size: 20px; 
+    color: #333; 
+    gap: 25px; 
 }
 
 .icon-container ion-icon {
-    font-size: 35px; /* Adjust icon size */
-    color: #333; /* Icon color */
+    font-size: 35px; 
+    color: #333; 
 }
 
 .icon-container span {
-    margin-top: 5px; /* Space between icon and text */
+    margin-top: 5px; 
     font-weight: bold;
-    white-space: nowrap; /* Prevent text from wrapping */
+    white-space: nowrap; 
 }
 
-/* New styling for bottom-left icons */
 .bottom-icons {
     position: absolute;
-    bottom: -300px; /* Distance from bottom */
-    left: 8px; /* Align to the left corner */
+    bottom: -300px; 
+    left: 8px; 
     display: flex;
-    flex-direction: column; /* Stack vertically */
-    gap: 20px; /* Space between icons */
+    flex-direction: column; 
+    gap: 20px; 
 }
 
 
-.Profilephoto1
-{
+.Profilephoto1, .Profilephoto2, .Profilephoto3 {
     position: absolute;
-    left: 400px; 
-    top: 100px; 
+    left: 400px;
 }
 
+.Profilephoto1 { top: 100px; }
+.Profilephoto2 { top: 910px; }
+.Profilephoto3 { top: 1700px; }
 
-.Profilephoto2
-{
+.Postedphoto1, .Postedphoto2, .Postedphoto3 {
     position: absolute;
-    left: 400px; 
-    top: 910px; 
+    left: 400px;
 }
 
+.Postedphoto1 { top: 165px; }
+.Postedphoto2 { top: 980px; }
+.Postedphoto3 { top: 1780px; }
 
-.Profilephoto3
-{
-    position: absolute;
-    left: 400px; 
-    top: 1700px; 
-}
-
-
-.Postedphoto1 img {
-    width: 400px; 
-    height: 550px; 
-    object-fit: cover; 
-    border-radius: 10px;
-}
-
-
-.Postedphoto2 img {
-    width: 400px; 
-    height: 550px; 
-    object-fit: cover; 
-    border-radius: 10px;
-}
-
-
+.Postedphoto1 img, 
+.Postedphoto2 img, 
 .Postedphoto3 img {
     width: 400px; 
     height: 550px; 
@@ -145,33 +121,7 @@ section::after {
     border-radius: 10px;
 }
 
-.Postedphoto1
-{
-    position: absolute;
-    left: 400px;
-    top: 165px; 
-}
-
-
-
-.Postedphoto2
-{
-    position: absolute;
-    left: 400px;
-    top: 980px; 
-}
-
-
-
-.Postedphoto3
-{
-    position: absolute;
-    left: 400px;
-    top: 1780px; 
-}
-
-.Postedphotoicon
-{
+.Postedphotoicon {
     position: absolute;
     right: 8px;
     color: #080000;
@@ -202,25 +152,22 @@ section::after {
     gap: 30px; 
 } 
 
-/* First instance styling */
 .first-instance {
     position: absolute;
-    top: 730px;  /* Adjust the distance from top */
-    left: 405px;  /* Adjust the distance from left */
+    top: 730px;  
+    left: 405px;  
 }
 
-/* Second instance styling */
 .second-instance {
     position: absolute;
-    top: 1545px;  /* Adjust the distance from top */
-    left: 405px; /* Adjust the distance from left */
+    top: 1545px; 
+    left: 405px; 
 }
 
-/* Third instance styling */
 .third-instance {
     position: absolute;
-    top: 2350px;  /* Adjust the distance from top */
-    left: 405px;  /* Adjust the distance from right */
+    top: 2350px;  
+    left: 405px; 
 }
 .Postedphotoicon ion-icon {
     font-size: 30px; 
@@ -240,43 +187,32 @@ section::after {
     color: rgb(11, 11, 11); 
 }
 
-.Profilephoto1 img {
-    width: 50px; 
-    height: 50px; 
-    object-fit: cover; 
-}
-
-
-.Profilephoto2 img {
-    width: 50px; 
-    height: 50px; 
-    object-fit: cover; 
-    border-radius: 30px;
-}
-
-
+.Profilephoto1 img, 
+.Profilephoto2 img, 
 .Profilephoto3 img {
     width: 50px; 
     height: 50px; 
     object-fit: cover; 
+}
+
+.Profilephoto2 img, 
+.Profilephoto3 img {
     border-radius: 30px;
 }
 
 
 .Comment-box {
-    display: none; /* Hide the comment box initially */
+    display: none; 
     position: absolute;
-    right: 120px; /* Align to the rightmost part */
-    bottom: 200px; /* Adjust top position if needed */
-    width: 400px; /* Adjust width as necessary */
+    right: 120px; 
+    bottom: 200px; 
+    width: 400px;
     height: 400px;
-    border: 2px solid #0d0d0d; /* Add border around the comment box */
-    padding: 45px; /* Optional: Add some padding inside the box */
-    background-color: #fff; /* Optional: Add background color */
+    border: 2px solid #0d0d0d; 
+    padding: 45px;
+    background-color: #fff; 
 }
 
-
-/* Fade-in effect when displayed */
 .Comment-box.show {
     display: block;
     animation: fadeIn 0.3s ease-in-out;
@@ -302,17 +238,27 @@ h2
 }
 
 
-h1
-{
+.logo-container {
+    display: flex;
+    align-items: center; 
+    position: fixed;
+    top: 20px;
+    left: 60px;
+}
+
+.logo {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+h1 {
     font-family: 'Sriracha', cursive;
     font-size: 2em;
     color: #0b0b0b;
-    text-align: left;
-    position: fixed;
-    top: 20px;   /* Adjust the distance from the top */
-    left: 60px; /* Adjust the distance from the right */
-   
+    margin: 0; 
 }
+
 
 h3
 {
@@ -320,8 +266,8 @@ h3
     color: #0a0909;
     text-align: left;
     position: absolute;
-    top: 118px;   /* Adjust the distance from the top */
-    left: 460px; /* Adjust the distance from the right */
+    top: 118px;   
+    left: 460px;
 }
 
 h4
@@ -330,8 +276,8 @@ h4
     color: #0a0909;
     text-align: left;
     position: absolute;
-    top: 920px;   /* Adjust the distance from the top */
-    left: 460px; /* Adjust the distance from the right */
+    top: 920px;   
+    left: 460px;
 }
 
 h5
@@ -340,8 +286,8 @@ h5
     color: #0a0909;
     text-align: left;
     position: absolute;
-    top: 1715px;   /* Adjust the distance from the top */
-    left: 460px; /* Adjust the distance from the right */
+    top: 1715px;  
+    left: 460px; 
 }
 
 .input-box
@@ -371,21 +317,21 @@ h5
 
 
 .input-box input::placeholder {
-    color: transparent; /* Makes placeholder text transparent */
+    color: transparent; 
 }
 
 .input-box input:focus {
-    border-color: #010309; /* Change border color on focus */
+    border-color: #010309; 
     background-color: #fff;
 }
 .input-box input::placeholder {
     color: #0c0303;
-    opacity: 1; /* Make sure placeholder text is visible initially */
+    opacity: 1;
 }
 
-/* You can hide the label when the input is focused or has text */
+
 .input-box input:focus::placeholder {
-    color: transparent; /* Hide the placeholder when focused */
+    color: transparent; 
 }
 
 .input-box .icon
@@ -421,45 +367,40 @@ button
     width: 250px;
     margin: 20px auto;
     text-align: center;
-    color: rgb(184, 236, 39) !important; /* Default color */
+    color: rgb(184, 236, 39) !important; 
     box-shadow: 0 2px 10px rgba(207, 28, 28, 0.1);
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
 
-/* Style for Success (Non-Toxic Comment) */
 #predictionResult.success {
-    background-color: #12d740; /* Light green */
-    border-left: 5px solid #28a745; /* Green border */
-    color: #155724; /* Dark green text */
+    background-color: #12d740; 
+    border-left: 5px solid #28a745; 
+    color: #155724; 
 }
 
-/* Style for Error (Toxic Comment) */
+
 #predictionResult.error {
-    background-color: #e31a2b; /* Light red */
-    border-left: 5px solid #dc3545; /* Red border */
-    color: #721c24; /* Dark red text */
+    background-color: #e31a2b; 
+    border-left: 5px solid #dc3545; 
+    color: #721c24; 
 }
 
-/* Show the popup with a smooth fade-in effect */
 #predictionResult.show {
     opacity: 1;
 }
 
 body.blur {
-    filter: blur(5px); /* Apply background blur */
-    transition: filter 0.3s ease-in-out; /* Optional: smooth transition */
+    filter: blur(5px); 
+    transition: filter 0.3s ease-in-out; 
 }
 
-/* Ensure modal is not blurred */
 .modal, .modal-content {
-    filter: none !important; /* Disable the blur effect */
-    backdrop-filter: none !important; /* Explicitly remove any backdrop filter */
-    z-index: 99999; /* Ensure the modal is above the blurred body */
+    filter: none !important; 
+    backdrop-filter: none !important;
+    z-index: 99999; 
 }
 
-
-/* Default Modal Styling */
 .modal {
     display: none; 
     position: fixed;
@@ -468,14 +409,13 @@ body.blur {
     bottom: 30%;
     transform: translate(-50%, -50%);
     width: 300px;
-    color: rgb(249, 242, 242); /* Text color */
+    color: rgb(249, 242, 242); 
     text-align: center;
     padding: 20px;
     border-radius: 10px;
     font-weight: bold;
     text-align: center;
     font-size: 18px;
-    /* backdrop-filter: none; Ensure no blur is applied to the modal itself */
 }
 
 .modal img
@@ -486,7 +426,6 @@ body.blur {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-/* Modal headings */
 .modal-content h4, .modal-content h5 {
     margin: 0;
     font-size: 18px;
@@ -497,7 +436,6 @@ body.blur {
     width: 100%;
     margin-top: 50px;
     padding: 10px 0;
-    /* background: #6fd649; */
     color: #fff;
     border: 0;
     outline: none;
@@ -509,47 +447,43 @@ body.blur {
 }
 
 
-/* Green button for non-toxic comment */
 .modal button.non-toxic {
-    background-color: #70e844; /* Green for non-toxic comments */
+    background-color: #70e844; 
 }
 
-/* Red button for toxic comment */
 .modal button.toxic {
-    background-color: #8b261a; /* Red for toxic comments */
+    background-color: #8b261a; 
 }
 
-/* Specific colors for toxic and non-toxic messages */
 .modal.success {
     background-color: rgb(233, 237, 231);
-    color: rgb(2, 2, 2); /* Text color */
+    color: rgb(2, 2, 2); 
 }  
 
 .modal.error {
     background-color: rgb(242, 235, 235);
-    color: rgb(9, 0, 0); /* Text color */
+    color: rgb(9, 0, 0); 
    
 }
 
-/* Position the tick icon at the top middle */
 .modal.success::before, .modal.error::before {
-    content: ''; /* Empty content to create the pseudo-element */
+    content: ''; 
     position: absolute;
-    top: -20px; /* Move the icon above the modal */
-    left: 50%; /* Center it horizontally */
-    transform: translateX(-50%); /* Correct the centering */
-    width: 40px; /* Adjust the width of the icon */
-    height: 40px; /* Adjust the height of the icon */
-    background-size: cover; /* Make sure the background image covers the element */
-    border-radius: 50%; /* Make it circular */
+    top: -20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 40px;
+    height: 40px;
+    background-size: cover; 
+    border-radius: 50%; 
 }
 
 .modal.success::before {
-    background-image: url('/static/images/greentick.jpg'); /* Green tick for success */
+    background-image: url('/static/images/greentick.jpg');
 }
 
 .modal.error::before {
-    background-image: url('/static/images/redtick.jpg'); /* Red tick for error */
+    background-image: url('/static/images/redtick.jpg'); 
 }
 
 .modal-content {
@@ -557,8 +491,6 @@ body.blur {
     padding: 20px;
 }
 
-
-/* Add a slight delay before modal shows */
 .modal.show {
     display: block;
     animation: slideFromTop 0.3s ease-out;
@@ -573,8 +505,6 @@ body.blur {
     cursor: pointer;
 }
 
-
-/* Overlay to blur background */
 .overlay {
     position: fixed;
     top: 0;
@@ -584,7 +514,7 @@ body.blur {
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(5px);
     display: none;
-    z-index: 1000; /* Below the popup but above everything else */
+    z-index: 1000; 
 }
 
 
@@ -598,62 +528,6 @@ body.blur {
         opacity: 1;
     }
 }
-/* 
-.non-toxic-comment {
-    font-size: 16px;
-    color: #0b0401;
-    background-color: #eae856; 
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    font-weight: bold;
-    border: 2px solid red; 
-} */
-/* 
-.comments-list {
-    max-height: 200px; 
-    overflow-y: auto;  
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-    padding: 10px;
-    border-top: 1px solid #ddd; 
-} */
-/* 
-.comments-list {
-    margin-top: 10px;          
-    padding: 10px;
-    border-top: 1px solid #ddd; 
-    background-color: #fafafa;  
-   
-}
-
-
-
-.comment, .non-toxic-comment {
-    font-size: 16px;
-    color: #0b0401;
-    background-color: #eae856; 
-    padding: 10px;
-    margin-bottom: 10px;  
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    font-weight: bold;
-} */
-
-/* Container for comments under each post */
-/* .comments-list {
-    position: absolute;
-    left: 405px;
-    width: 400px;
-    background: #f9f9f9; 
-    border-radius: 8px;
-    padding: 10px;
-    margin-top: 10px; 
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-} */
-
 
 .comment {
     font-size: 10px;
@@ -678,7 +552,7 @@ body.blur {
 
 
 .comments-list {
-    display: none; /* Initially hidden */
+    display: none; 
     position: absolute;
     width: 100%;
     max-width: 350px; 
@@ -687,11 +561,11 @@ body.blur {
     background: #f3f3ef;
     border-radius: 5px;
     display: flex;
-    flex-direction: column; /* Ensures comments are stacked vertically */
-    gap: 5px; /* Space between comments */
+    flex-direction: column; 
+    gap: 5px; 
 
-    max-height: 55px; /* Set a height limit for scrolling */
-    overflow-y: auto; /* Enables vertical scrolling */
+    max-height: 55px; 
+    overflow-y: auto; 
 }
 
 
