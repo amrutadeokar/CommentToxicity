@@ -19,3 +19,10 @@ __pycache__/
 
 
 venv/
+
+# Ignore virtual environment
+CommentToxicity/lib/
+CommentToxicity/venv/
+
+# Ignore system-specific files
+.DS_Store
