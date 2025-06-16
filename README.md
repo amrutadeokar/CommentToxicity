@@ -23,6 +23,7 @@ https://github.com/amrutadeokar/CommentToxicity/blob/b38d0022f27643981ff3c2c6d97
 https://github.com/amrutadeokar/CommentToxicity/blob/7018d145ce044712ade7dddd16fcd8e5cedd6fc7/page2.jpg
 https://github.com/amrutadeokar/CommentToxicity/blob/963f1e80453f29a17e53154bb13b628955eb8f9a/page3.jpg
 https://github.com/amrutadeokar/CommentToxicity/blob/ac310235da045b42907b3446fbdc96d5fbb98f94/page4.jpg
+https://github.com/amrutadeokar/CommentToxicity/blob/15e670fa44a23b79c4c7bb80c86f81e0c76e6540/page5.jpg
 
 ## 📦 Installation
 
