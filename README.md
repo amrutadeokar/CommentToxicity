@@ -44,7 +44,7 @@ https://github.com/amrutadeokar/CommentToxicity/tree/e8fb6aff69dab7a7d55e2385794
        - If the comment is non-toxic, it will be posted below.
        - If the comment is toxic, a warning pop-up will appear, and the comment will be blocked.
 
-📚 Learnings
+## 📚 Learnings
 - Applied deep learning for toxic text classification
 - Trained and deployed an LSTM model using real-world data
 - Integrated an ML model with a frontend interface
