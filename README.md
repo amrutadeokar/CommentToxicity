@@ -19,7 +19,7 @@ A web-based application that detects toxic comments in real-time using Natural L
 
 ## 🖼️ Screenshots
 
-*(Add actual images from your project folder, e.g.)*
+https://github.com/amrutadeokar/CommentToxicity/blob/b38d0022f27643981ff3c2c6d976e70d6cb41a73/login.jpg
 
 
 
