@@ -28,3 +28,28 @@ https://github.com/amrutadeokar/CommentToxicity/tree/e8fb6aff69dab7a7d55e2385794
    git clone https://github.com/yourusername/commenttoxicity.git
    cd commenttoxicity
 
+2. Set up the Python environment:
+   ```bash
+   pip install -r requirements.txt
+   
+3. Start the backend server:
+   ```bash
+   python model_server.py
+
+4. Open myweb.html in a browser to interact with the frontend.
+
+## 🚀 Usage
+- Log in with any credentials.
+- Type a comment in the textbox.
+       - If the comment is non-toxic, it will be posted below.
+       - If the comment is toxic, a warning pop-up will appear, and the comment will be blocked.
+
+📚 Learnings
+- Applied deep learning for toxic text classification
+- Trained and deployed an LSTM model using real-world data
+- Integrated an ML model with a frontend interface
+- Learned full-stack development and API communication
+
+ 🙋‍♀️ Author
+Amruta Deokar
+
