@@ -52,4 +52,10 @@ https://github.com/amrutadeokar/CommentToxicity/tree/e8fb6aff69dab7a7d55e2385794
 
  🙋‍♀️ Author
 Amruta Deokar
+🔗 GitHub: [@amrutadeokar](https://github.com/amrutadeokar)
+
+## 📝 License
+
+This project is licensed under the [MIT License](./LICENSE).  
+You are free to use, modify, and distribute this software with proper credit to the author.
 
