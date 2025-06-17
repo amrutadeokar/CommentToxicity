@@ -36,3 +36,5 @@ Untitled.ipynb
 toxic_comment_model.h5   
 gitattributes           
 
+# Ignore virtual environments
+CommentToxicity/
