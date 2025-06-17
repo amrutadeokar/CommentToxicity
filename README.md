@@ -34,7 +34,7 @@ A web-based application that detects toxic comments in real-time using Natural L
 ### ✅ Non-Toxic Comment Submitted
 ![Page 4](https://github.com/amrutadeokar/CommentToxicity/blob/main/Project%20Photos/page4.jpg)
 
-### 📄 Additional UI/Result Page
+### 📄 Non-toxic pop-up
 ![Page 5](https://github.com/amrutadeokar/CommentToxicity/blob/main/Project%20Photos/page5.jpg)
 
 
