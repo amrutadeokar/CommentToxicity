@@ -20,3 +20,10 @@ CommentToxicity/lib/
 # Model files (optional, if model files are large or not needed in repo)
 *.h5
 *.keras
+
+# Ignore large binary files
+*.dylib
+*.so
+
+# Dataset file (optional to ignore in repo)
+Toxicity/train.csv

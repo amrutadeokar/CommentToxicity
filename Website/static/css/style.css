@@ -308,3 +308,16 @@ button {
     40% { opacity: 0; }
     100% { opacity: 0; }
 }
+
+
+@media (max-width: 768px) {
+    section {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center;
+    }
+
+    section div {
+        width: 100%; /* Full width on small screens */
+    }
+}
+
