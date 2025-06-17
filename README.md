@@ -42,7 +42,7 @@ A web-based application that detects toxic comments in real-time using Natural L
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/commenttoxicity.git
+   git clone https://github.com/amrutadeokar/CommentToxicity.git
    cd commenttoxicity
 
 2. Set up the Python environment:
