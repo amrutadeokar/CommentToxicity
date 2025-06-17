@@ -33,6 +33,6 @@ Toxicity/train.csv
 .virtual_documents/
 anaconda_projects/
 Untitled.ipynb
-toxic_comment_model.h5   # only if not using it
-gitattributes            # if not needed
-Project photos/          # if not using this one
+toxic_comment_model.h5   
+gitattributes           
+
