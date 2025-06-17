@@ -20,23 +20,22 @@ A web-based application that detects toxic comments in real-time using Natural L
 ## 🖼️ Screenshots
 
 ### 🔐 Login Page
-![Login Page](https://github.com/amrutadeokar/CommentToxicity/blob/main/ProjectPhotoes/login.jpg)
+![Login Page](https://github.com/amrutadeokar/CommentToxicity/blob/main/Project%20Photos/login.jpg)
 
 ### 🖥️ User Dashboard / Page 1
-![Page 1](https://github.com/amrutadeokar/CommentToxicity/blob/main/ProjectPhotoes/page1.jpg)
+![Page 1](https://github.com/amrutadeokar/CommentToxicity/blob/main/Project%20Photos/page1.jpg)
 
 ### 💬 Comment Box View
-![Page 2](https://github.com/amrutadeokar/CommentToxicity/blob/main/ProjectPhotoes/page2.jpg)
+![Page 2](https://github.com/amrutadeokar/CommentToxicity/blob/main/Project%20Photos/page2.jpg)
 
 ### ✅ Non-Toxic Comment Submitted
-![Page 3](https://github.com/amrutadeokar/CommentToxicity/blob/main/ProjectPhotoes/page3.jpg)
+![Page 3](https://github.com/amrutadeokar/CommentToxicity/blob/main/Project%20Photos/page3.jpg)
 
 ### ❌ Toxic Comment Blocked
-![Page 4](https://github.com/amrutadeokar/CommentToxicity/blob/main/ProjectPhotoes/page4.jpg)
+![Page 4](https://github.com/amrutadeokar/CommentToxicity/blob/main/Project%20Photos/page4.jpg)
 
 ### 📄 Additional UI/Result Page
-![Page 5](https://github.com/amrutadeokar/CommentToxicity/blob/main/ProjectPhotoes/page5.jpg)
-
+![Page 5](https://github.com/amrutadeokar/CommentToxicity/blob/main/Project%20Photos/page5.jpg)
 
 
 ## 📦 Installation
