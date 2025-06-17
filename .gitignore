@@ -1,28 +1,22 @@
-# Ignore Python virtual environments
-venv/
-
-# Ignore macOS system files
-.DS_Store
-
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Ignore other unnecessary files
+# Python cache and compiled files
 __pycache__/
 *.pyc
 
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
-
-
-
-
-
-
+# Python virtual environments
 venv/
-
-# Ignore virtual environment
-CommentToxicity/lib/
 CommentToxicity/venv/
+CommentToxicity/lib/
 
-# Ignore system-specific files
+# macOS system files
 .DS_Store
+
+# VS Code or PyCharm settings (optional but common)
+.vscode/
+.idea/
+
+# Model files (optional, if model files are large or not needed in repo)
+*.h5
+*.keras
