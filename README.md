@@ -53,7 +53,7 @@ A web-based application that detects toxic comments in real-time using Natural L
    ```bash
    python model_server.py
 
-4. Open myweb.html in a browser to interact with the frontend.
+4. Open `frontend/myweb.html` in a browser to interact with the frontend.
 
 ## 🚀 Usage
 - Log in with any credentials.
